@@ -1,0 +1,12 @@
+{
+    "python.linting.pylintEnabled": true,
+    
+    {%- if cookiecutter.pylint_install_scope == "y" %}
+    "pylint.path":[
+        "~/.local/bin"
+    {%- else -%}
+    "pylint.path":[
+        "venv/bin"
+    ],
+    {% endif %}
+}

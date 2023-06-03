@@ -1,0 +1,8 @@
+-r requirements.txt
+# docs
+mkdocs
+mkdocs-material
+mkdocstrings
+
+# test
+pytest

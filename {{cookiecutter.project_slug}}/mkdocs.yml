@@ -1,0 +1,9 @@
+site_name: {{ cookiecutter.project_name }}
+
+theme:
+  name: material
+
+
+plugins:
+  - search # must be included at the first place
+  - mkdocs-video

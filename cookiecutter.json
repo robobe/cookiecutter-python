@@ -1,0 +1,15 @@
+{
+    "project_name": "Python Project Template",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "pytest_enabled": [
+        "y",
+        "n"
+    ],
+    "_material_enabled": "y",
+    "_not_rendered": "{{ cookiecutter.project_name|lower }}",
+    "__rendered": "{{ cookiecutter.project_name|lower }}",
+    "pylint_install_scope": [
+        "[y]: user scope",
+        "[n]: venv scope"
+    ]
+}
