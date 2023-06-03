@@ -1,6 +1,9 @@
 {
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "workbench.editor.enablePreview": false,
     "python.linting.pylintEnabled": true,
-    
+    "python.linting.mypyEnabled": true,
     {%- if cookiecutter.pylint_install_scope == "y" %}
     "pylint.path":[
         "~/.local/bin"
