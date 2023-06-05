@@ -1,9 +1,16 @@
 {
     "editor.minimap.enabled": false,
     "files.autoSave": "afterDelay",
+    "python.defaultInterpreterPath": "venv/bin/python",
+    "python.terminal.activateEnvironment": true,
     "workbench.editor.enablePreview": false,
     "python.linting.pylintEnabled": true,
     "python.linting.mypyEnabled": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
     {%- if cookiecutter.pylint_install_scope == "y" %}
     "pylint.path":[
         "~/.local/bin"

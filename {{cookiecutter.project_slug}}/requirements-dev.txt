@@ -6,3 +6,5 @@ mkdocstrings
 
 # test
 pytest
+# 
+mypy
